@@ -1,0 +1,1 @@
+http://manueljordan.wordpress.com/2011/12/12/creating-a-spring-web-mvc-project-with-springsource-tool-suite/
