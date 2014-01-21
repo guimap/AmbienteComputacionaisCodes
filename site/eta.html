@@ -1,0 +1,91 @@
+<html>
+	<head>
+	</head>
+	
+	<title>HELLO WORLD</title>
+	
+	<body style="background-image: url('imagens/fundo.jpg')" id="corpo">
+		<script>
+			function show(){
+				var dive = document.getElementById("campo");
+				
+				dive.style.display = "block";
+				dive.innerHTML = "<h1>Texto em h1</h1> \n <h2>Texto em h2</h2> \n <h3>Texto em h3</h3> \n <h4>Texto em h4</h4> \n <h5>Texto em h5</h5> \n <h6>Texto em h6</h6> ";				
+				//document.body.style.backgroundImage = "url('imagens/aaa.jpg')";
+
+
+				
+			}
+			
+			function hide(){
+				var dive = document.getElementById("campo");
+				
+
+				dive.style.display = "none";
+				//document.body.style.backgroundImage = "url('imagens/aaa.jpg')";
+
+
+				
+			}
+		
+		</script>
+		
+
+		<h1 align="center" style="font-size:130px;">Hello World</h1> <br/>
+		<p align="center">Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor...</p> 
+		<font face="Arial" size=1 color=#00ff00>
+		<p align="center">Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor...</p> 
+		</font>
+		
+		<div align="center">
+			<button onClick="show()" style="width:50px;heigth:20px;">Go!</button>
+			<button onClick="hide()" style="width:50px;heigth:20px;">Tirar!</button>
+		</div>
+		
+		<hr width="100%" color="#FFF2A" align="center"/>
+		
+		
+		<div align="center">
+			<div id="campo"></div>
+		</div>
+		<center>
+		<table border=1>
+				<tr>
+					<td>
+					Lista Não Ordenada
+					</td>
+					<td>
+					Lista Ordenada
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul type="circle">
+							<li>Opção 1</li>
+							<li>Opção 2</li>
+							<li>Opção 3</li>
+						</ul
+					</td>
+
+					<td>
+						<ol>
+							<li>Opção 1</li>
+							<li>Opção 2</li>
+							<li>Opção 3</li>
+
+						</ol>
+						
+					</td>
+				</tr>
+		</table>
+		</center>
+		<center>
+			<img width="25%" src="imagens/relogio.jpg"/>
+		</center>
+
+		<a href="https://www.google.com.br/q?senai"><label>SENAI</label></a>
+	
+			
+
+	</body>
+</html>
